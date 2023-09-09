@@ -1,0 +1,41 @@
+unit uBliblioteca;
+
+interface
+  //sessão para declarar as porcedures ou funções
+  uses IniFiles, System.SysUtils;
+
+  procedure SetValorIni(pLocal,pSessao,pSubSessao,pValor:string);
+
+implementation
+
+uses
+  Vcl.Forms;
+
+  //cessão pra implementar as procedures ou funcções que eu declarei
+
+  procedure SetValorIni(pLocal,pSessao,pSubSessao,pValor:string);
+
+
+  var vArquivo: TIniFile;
+
+   //esse begin end e onde ficam os cidgos de ação da procedure
+
+  begin
+
+     vArquivo := TIniFile.Create(ExtractFilePath(Application.ExeName) + 'config.ini');
+
+     vArquivo.WriteString(pSessao,pSubSessao,pValor);
+
+     vArquivo.Free;
+
+
+
+
+
+
+
+  end;
+
+
+
+end.

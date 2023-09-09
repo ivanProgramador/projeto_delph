@@ -1,0 +1,51 @@
+unit uBliblioteca;
+
+interface
+  //sessão para declarar as porcedures ou funções
+  uses IniFiles, System.SysUtils;
+
+  procedure SetValorIni(pLocal,pSessao,pSubSessao,pValor:string);
+
+  // a diferença entre uma procedure e umma function e que a function retolrna alguma coisa
+  //a procedure só executa
+
+  function GetValorIni(pLocal,pSessao,pSubSessao: string):String;
+
+implementation
+
+uses
+  Vcl.Forms;
+
+  //cessão pra implementar as procedures ou funcções que eu declarei
+
+  procedure SetValorIni(pLocal,pSessao,pSubSessao,pValor:string);
+
+
+  var vArquivo: TIniFile;
+
+   //esse begin end e onde ficam os cidgos de ação da procedure
+
+  begin
+
+     vArquivo := TIniFile.Create(ExtractFilePath(Application.ExeName) + 'config.ini');
+
+     vArquivo.WriteString(pSessao,pSubSessao,pValor);
+
+     vArquivo.Free;
+  end;
+
+
+  function GetValorIni(pLocal,pSessao,pSubSessao: string):String;
+
+   var vArquivo: TIniFile;
+
+  begin
+   vArquivo := TIniFile.Create(pLocal);
+
+
+
+
+  end;
+
+
+end.

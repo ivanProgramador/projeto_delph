@@ -1,0 +1,8 @@
+inherited FormCadastroCliente: TFormCadastroCliente
+  Caption = 'Cadastro de Cliente'
+  TextHeight = 15
+  inherited fdyUpdCadastro: TFDUpdateSQL
+    InsertSQL.Strings = (
+      'SELECT * FROM CLIENTE; ')
+  end
+end

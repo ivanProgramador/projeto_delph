@@ -1,0 +1,18 @@
+object TdmDados: TTdmDados
+  Height = 184
+  Width = 383
+  object FDCon: TFDConnection
+    Params.Strings = (
+      'Database=C:\Projeto_delph\Banco de dados\DADOS.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Protocol=TCPIP'
+      'Server=localhost'
+      'Port=3050'
+      'CharacterSet=UTF8'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 88
+    Top = 56
+  end
+end

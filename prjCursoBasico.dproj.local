@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/09/03 22:49:52.000.174,=C:\Users\ivan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 22:51:02.000.687,C:\Projeto_delph\Forms\uFormMain.pas=C:\Users\ivan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 22:51:02.000.687,C:\Projeto_delph\Forms\uFormMain.dfm=C:\Users\ivan\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/09/03 22:51:38.000.683,C:\Projeto_delph\prjCursoBasico.dproj=C:\Users\ivan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/09/03 22:54:00.000.976,=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 23:01:48.000.184,C:\Projeto_delph\Forms\uDmDados.pas=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 23:01:48.000.184,C:\Projeto_delph\Forms\uDmDados.dfm=C:\Projeto_delph\Unit1.dfm</Transaction>
+    <Transaction>2023/09/03 23:07:47.000.596,=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 23:08:44.000.319,C:\Projeto_delph\Classes\uBiblioteca.pas=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/03 23:35:16.000.344,=C:\Projeto_delph\Unit2.pas</Transaction>
+    <Transaction>2023/09/03 23:38:03.000.528,C:\Projeto_delph\Forms\uFormConfigBanco.pas=C:\Projeto_delph\Unit2.pas</Transaction>
+    <Transaction>2023/09/03 23:38:03.000.528,C:\Projeto_delph\Forms\uFormConfigBanco.dfm=C:\Projeto_delph\Unit2.dfm</Transaction>
+    <Transaction>2023/09/06 22:20:21.000.603,=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/06 22:22:38.000.745,C:\Projeto_delph\Unit1.pas=C:\Projeto_delph\Forms\uFormCadastroPai.pas</Transaction>
+    <Transaction>2023/09/06 22:22:38.000.745,C:\Projeto_delph\Unit1.dfm=C:\Projeto_delph\Forms\uFormCadastroPai.dfm</Transaction>
+    <Transaction>2023/09/08 22:28:57.612,=C:\Projeto_delph\Unit1.pas</Transaction>
+    <Transaction>2023/09/08 22:30:14.666,C:\Projeto_delph\Forms\uFormCadastroCliente.dfm=C:\Projeto_delph\Unit1.dfm</Transaction>
+    <Transaction>2023/09/08 22:30:14.666,C:\Projeto_delph\Forms\uFormCadastroCliente.pas=C:\Projeto_delph\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

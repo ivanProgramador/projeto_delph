@@ -1,0 +1,29 @@
+unit uBiblioteca;
+
+interface
+   uses IniFiles, System.SysUtils, Vcl.Forms;
+    //declarando
+    procedure SetValorIni(pLocal, pSessao, pSubSessao, pValor: string);
+
+implementation
+
+ //inplementando
+
+  procedure SetValorIni(pLocal, pSessao, pSubSessao, pValor: string);
+
+  var vArquivo: TIniFile;
+
+ //corpo da procedure
+  begin
+
+    vArquivo := TIniFile.Create(ExtractFilePath(Application.ExeName) + 'config.ini');
+
+
+
+
+  end;
+
+
+
+
+end.
